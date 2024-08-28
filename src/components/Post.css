@@ -1,0 +1,62 @@
+/* Post styles */
+.post {
+    background: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .post h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .post p {
+    font-size: 16px;
+  }
+  
+  .post button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+    margin-right: 10px;
+    border-radius: 5px;
+    padding: 5px 10px;
+  }
+  
+  .post button:hover {
+    background-color: #0056b3;
+  }
+  
+  .post-edit {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .post-edit input,
+  .post-edit textarea,
+  .post-edit button {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .post-edit textarea {
+    min-height: 100px;
+  }
+  
+  .post-edit button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .post-edit button:hover {
+    background-color: #218838;
+  }
+  
