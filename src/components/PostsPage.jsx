@@ -6,7 +6,7 @@ import './PostsPage.css'
 const PostsPage = () => {
   const [posts, setPosts] = useState([]);
   const [newPost, setNewPost] = useState({ title: '', body: '' });
-
+  
   useEffect(() => {
     const fetchPosts = async () => {
       try {

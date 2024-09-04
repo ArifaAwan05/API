@@ -7,7 +7,7 @@ import './Post.css'
 const Post = ({ post }) => {
   const [editing, setEditing] = useState(false);
   const [updatedPost, setUpdatedPost] = useState(post);
-
+  
   const handleUpdatePost = async () => {
     try {
       await axios.put(`https://jsonplaceholder.typicode.com/posts/${post.id}`, updatedPost);
